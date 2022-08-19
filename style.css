@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.main .banner {
+  width: 55%;
+  object-fit: cover;
+}
+
+.box__instagram {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(211, 211, 211);
+  width: 400px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.box__option {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(211, 211, 211);
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box__app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil {
+  border-radius: 50%;
+}
+
+.continue {
+  background-color: rgb(52, 52, 168);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.remove__count,
+.continue {
+  margin: 10px 0;
+}
+
+.title__option {
+  margin-top: 10px;
+  color: rgb(151, 142, 142);
+}
+.options {
+  margin-bottom: 10px;
+}
+.apps {
+  display: flex;
+}
+.title__app {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.apps img {
+  margin: 10px 20px;
+}
+
+.insta {
+    margin: 20px 0;
+    font-family: 'Lato', sans-serif;
+    font-family: "Rochester", cursive;
+}
+
+.alter__count,
+.register {
+  color: rgb(52, 52, 168);
+}
